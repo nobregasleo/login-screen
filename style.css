@@ -35,9 +35,6 @@ body * {
 
 .left-login-img {
     width: 10vw;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 .left-login > h1 {
@@ -62,9 +59,6 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: white;
-    border-radius: 20px;
-
 }
 
 .card-login > h1 {
@@ -84,7 +78,6 @@ body * {
 
 .textfield > input {
     width: 100%;
-    border: none;
     border-radius: 15px;
     padding: 15px;
     background-color: #d8d8d8;
@@ -158,12 +151,19 @@ body * {
      }
 
      .card-login {
-        width: 50vw;
+        width: 90vw;
      }
 
      .main-login {
         background-image: url(fundoleft-26.png);
         background-size: cover;
-        background-position: right bottom;
+        background-position: center top;
      }
-}
+
+     .textfield > input {
+        width: 50vw;
+    }
+    
+    .textfield > label {
+        color: white;
+    }
